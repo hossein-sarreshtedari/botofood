@@ -1,0 +1,87 @@
+.container {
+
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.title {
+
+    border-bottom: 3px solid #03ac13;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.selectOptions{
+
+    margin-bottom: 2rem;
+
+}
+
+
+.picDiv{
+
+    width: 100%;
+}
+
+.picSearch{
+
+    display: block;
+    margin : 0 auto ;
+    pointer-events: none;
+    user-select: none;
+}
+
+.selectTheme{
+
+    border: none;
+    background-color: #fff;
+    box-shadow: #03ac131a 0px 20px 25px -5px, #03ac130a 0px 10px 10px -5px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.btnSearch{
+
+    border: none;
+    background-color: #03ac13;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.foodCards{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(270px,1fr));
+    grid-gap: 1rem;
+
+}
+
+
+@media(max-width : 960px){
+
+    .picSearch{
+
+        width: 100%;
+    }
+
+}
+
+@media(max-width : 370px){
+
+    .picSearch{
+
+        width: 100%;
+    }
+
+    .selectTheme , .btnSearch{
+
+        margin: 5px;
+        
+    }
+
+}

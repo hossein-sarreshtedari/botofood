@@ -1,0 +1,86 @@
+.card{
+
+    width: 270px;
+    background-color: #fff;
+    padding: 0.7rem 0.5rem 0.6rem;
+
+    border-radius: 8px;
+    position: relative;
+    
+    margin: 0 auto;
+    box-shadow: #03ac131a 0px 20px 25px -5px, #03ac130a 0px 10px 10px -5px;
+
+}
+
+.discount{
+
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    background-color: #d21404;
+    padding: 5px 8px;
+    border-radius: 4px;
+    color: #fff;
+    user-select: none;
+}
+
+.PicFood{
+
+    width: 100%;
+    border-radius: 5px;
+    pointer-events: none;
+    user-select: none;
+    
+}
+
+
+
+.nameAndLocation{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0.3rem 0 1rem;
+
+}
+
+.nameAndLocation .name{
+
+    color: #03ac13;
+    font-weight: bold;
+}
+
+.nameAndLocation .loc{
+
+    display: flex;
+    align-items: center;
+}
+
+.nameAndLocation .loc span{
+
+   font-size: 12px;
+}
+
+
+
+.price{
+
+    display: flex;
+    align-items: center;
+    margin : 0.5rem 0 ;
+    font-weight: bold;
+}
+
+
+.btnDetails{
+
+    width: 100%;
+    background-color: #03ac13;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px 0;
+    border-radius: 4px;
+    margin-top: 10px;
+}

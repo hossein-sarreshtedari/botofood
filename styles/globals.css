@@ -1,0 +1,36 @@
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-color: #f9f9f9;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.hoverBtn {
+
+  transition: all 0.2s;
+  user-select: none;
+}
+
+.hoverBtn:hover {
+
+  transform: scale(0.97);
+}
+
+.hoverBtn:active {
+
+  transform: scale(0.95);
+}

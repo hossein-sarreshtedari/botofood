@@ -1,0 +1,21 @@
+.container{
+
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.title{
+
+    border-bottom: 3px solid #03ac13;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.foodCards{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(270px,1fr));
+    grid-gap: 1rem;
+
+   
+}
